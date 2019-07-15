@@ -15,7 +15,7 @@ end
 
 def find_max_value(array)
   
-  array.each.max { |ele| return ele }
+  array.sort.last { |ele| return ele }
 
 end
 
