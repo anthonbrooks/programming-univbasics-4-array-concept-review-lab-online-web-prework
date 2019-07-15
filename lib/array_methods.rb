@@ -7,14 +7,18 @@ def find_element_index(array, value_to_find)
     if value_to_find == array[i]
       return i
       
-      i += 1
     end
+    i += 1
   end
   
 end
 
 def find_max_value(array)
   
+  array.max_by do |ele| 
+    return ele
+end
+
 end
 
 def find_min_value(array)
